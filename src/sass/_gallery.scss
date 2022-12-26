@@ -1,0 +1,33 @@
+.gallery-section {
+  padding: 180px 0 90px 0;
+}
+
+.gallery__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+
+  @media screen and (min-width: 1200px) {
+    gap: 15px;
+  }
+}
+.gallery {
+}
+
+.gallery__item {
+  width: calc((100% - 0 * 15px) / 1);
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 1 * 15px) / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 2 * 15px) / 3);
+  }
+}
+.gallery__link {
+}
+.gallery_image {
+  width: 100%;
+}

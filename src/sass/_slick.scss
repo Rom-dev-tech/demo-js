@@ -1,0 +1,68 @@
+.slick {
+  padding-bottom: 100px;
+}
+.slick__list {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.slick__item {
+  margin: 15px;
+}
+.slick__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: green;
+  font-size: 58px;
+}
+
+.my-slick-prev,
+.my-slick-next {
+  position: absolute;
+  bottom: -40px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1;
+  border: none;
+  color: green;
+  background-color: transparent;
+}
+
+.my-slick-prev {
+  left: 50px;
+
+  @media screen and(min-width: 768px) {
+    left: 250px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    left: 350px;
+  }
+}
+
+.my-slick-next {
+  right: 50px;
+
+  @media screen and(min-width: 768px) {
+    right: 250px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    right: 350px;
+  }
+}
