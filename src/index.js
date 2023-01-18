@@ -4,3 +4,4 @@ import './js/simplelightbox';
 import './js/slick';
 import './js/menu';
 import './js/modal';
+import './js/form-validation';

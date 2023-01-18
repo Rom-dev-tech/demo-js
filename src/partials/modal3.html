@@ -1,8 +1,35 @@
 <div class="modal modal3" data-modal="3">
-    <button class="modal__button js-modal-close">
-        <svg class="modal__icon">
-            <use href="./images/symbol-defs.svg#icon-close"></use>
-        </svg>
-    </button>
-    <p class="modal__text">Modal #3</p>
+  <button class="modal__button js-modal-close">
+    <svg class="modal__icon">
+      <use href="./images/symbol-defs.svg#icon-close"></use>
+    </svg>
+  </button>
+  <p class="modal__text">Modal #3</p>
+
+  <!-- form -->
+  <form class="form">
+    <strong class="form__title">Form with disabled button</strong>
+
+    <label class="form__input-wrapper">
+      <span class="form__label">Name</span>
+      <input
+        class="form__input input-js"
+        type="text"
+        name="user-name"
+        placeholder="enter your name"
+      />
+    </label>
+
+    <label class="form__input-wrapper">
+      <span class="form__label">Email</span>
+      <input
+        class="form__input input-js"
+        type="email"
+        name="user-email"
+        placeholder="enter your email"
+      />
+    </label>
+
+    <button class="form__button button-js" type="submit">send form</button>
+  </form>
 </div>
