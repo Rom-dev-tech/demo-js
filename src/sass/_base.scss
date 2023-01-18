@@ -2,6 +2,7 @@ body {
   background-color: rgba(255, 253, 192, 0.569);
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  cursor: url('../images/cursor.png'), pointer;
 }
 
 body.modal-open {
