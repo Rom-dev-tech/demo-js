@@ -2,9 +2,10 @@
   "name": "demo-js",
   "version": "2.0.0",
   "description": "",
+  "homepage": "https://Rom-dev-tech.github.io/demo-js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /dist/"
+    "build": "parcel build src/*.html --public-url /demo-js/"
   },
   "repository": {
     "type": "git",
