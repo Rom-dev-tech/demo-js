@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /demo-js/"
+    "build": "parcel build src/*.html --public-url /dist/"
   },
   "repository": {
     "type": "git",
